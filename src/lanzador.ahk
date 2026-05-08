@@ -5,7 +5,7 @@ SetTitleMatchMode, 2
 ;------------------------------------------
 ; CARGAR SPLASH SCREEN
 ;------------------------------------------
-RunWait, %A_ScriptDir%\splash.ahk
+RunWait, %A_ScriptDir%\src\splash.ahk
 
 ;------------------------------------------
 ; CONFIGURACIÓN
