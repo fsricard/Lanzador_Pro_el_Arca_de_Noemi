@@ -10,7 +10,7 @@ RunWait, %A_ScriptDir%\src\splash.ahk
 ;------------------------------------------
 ; CONFIGURACIÓN
 ;------------------------------------------
-configFile := A_ScriptDir "\..\config\config.ini"
+configFile := A_ScriptDir "\config\config.ini"
 IniRead, navegador, %configFile%, Navegador, Predeterminado, Chrome
 IniRead, logsActivos, %configFile%, Logs, Activados, 1
 
@@ -66,7 +66,7 @@ Gui, Color, 202020
 Gui, Font, s10 cFFFFFF, Segoe UI
 
 ; Logo
-Gui, Add, Picture, x20 y20 w80 h80, %A_ScriptDir%\..\assets\logo\logo.png
+Gui, Add, Picture, x20 y20 w80 h80, %A_ScriptDir%\assets\logo\logo.png
 Gui, Add, Text, x20 y110 cFFFFFF, El Arca de Noemí
 
 ; Menú lateral (de momento solo texto, sin PNG)
@@ -99,7 +99,7 @@ return
 
 MenuConfig:
     Pulse("BtnMenuConfig")
-    Run, notepad.exe "%A_ScriptDir%\..\config\config.ini"
+    Run, notepad.exe "%A_ScriptDir%\config\config.ini"
 return
 
 MenuInfernal:
