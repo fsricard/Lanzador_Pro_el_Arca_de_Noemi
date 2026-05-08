@@ -105,7 +105,7 @@ return
 MenuInfernal:
     Pulse("BtnMenuInfernal")
     chrome := GetChromePath()
-    Run, "%chrome%" "http://localhost:8081/El_Arca_de_Noemí/admin/panel_infernal/index.php"
+    Run, "%chrome%" "http://localhost:8081/El_Arca_de_Noemi/admin/panel_infernal/index.php"
 return
 
 MenuLaragon:
@@ -134,7 +134,7 @@ IniciarTodo:
     Run, C:\laragon\www\El_Arca_de_Noemi
     Sleep, 1000
     chrome := GetChromePath()
-    Run, "%chrome%" "http://localhost:8081/El_Arca_de_Noemí/admin/panel_infernal/index.php"
+    Run, "%chrome%" "http://localhost:8081/El_Arca_de_Noemi/admin/panel_infernal/index.php"
     Sleep, 1000
     Run, "C:\Users\alnas\AppData\Local\Programs\Microsoft VS Code\Code.exe"
     Sleep, 1000
@@ -154,7 +154,7 @@ return
 AbrirPanelInfernal:
     Pulse("BtnInfernal")
     chrome := GetChromePath()
-    Run, "%chrome%" "http://localhost:8081/El_Arca_de_Noemí/admin/panel_infernal/index.php"
+    Run, "%chrome%" "http://localhost:8081/El_Arca_de_Noemi/admin/panel_infernal/index.php"
 return
 
 AbrirVSCode:
