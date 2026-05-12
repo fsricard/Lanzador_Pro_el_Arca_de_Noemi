@@ -105,7 +105,7 @@ return
 MenuInfernal:
     Pulse("BtnMenuInfernal")
     chrome := GetChromePath()
-    Run, "%chrome%" "http://localhost:8081/El_Arca_de_Noemi/admin/panel_infernal/index.php"
+    Run, "%chrome%" "http://localhost:8081/El_huerto_de_la_Gatopia/admin/panel_infernal/index.php"
 return
 
 MenuLaragon:
@@ -131,10 +131,10 @@ IniciarTodo:
     Pulse("BtnIniciarTodo")
     Run, "C:\laragon\laragon.exe"
     Sleep, 2000
-    Run, C:\laragon\www\El_Arca_de_Noemi
+    Run, C:\laragon\www\El_huerto_de_la_Gatopia
     Sleep, 1000
     chrome := GetChromePath()
-    Run, "%chrome%" "http://localhost:8081/El_Arca_de_Noemi/admin/panel_infernal/index.php"
+    Run, "%chrome%" "http://localhost:8081/El_huerto_de_la_Gatopia/admin/panel_infernal/index.php"
     Sleep, 1000
     Run, "C:\Users\alnas\AppData\Local\Programs\Microsoft VS Code\Code.exe"
     Sleep, 1000
@@ -143,7 +143,7 @@ return
 
 AbrirCarpeta:
     Pulse("BtnCarpeta")
-    Run, C:\laragon\www\El_Arca_de_Noemi
+    Run, C:\laragon\www\El_huerto_de_la_Gatopia
 return
 
 IniciarLaragon:
@@ -154,7 +154,7 @@ return
 AbrirPanelInfernal:
     Pulse("BtnInfernal")
     chrome := GetChromePath()
-    Run, "%chrome%" "http://localhost:8081/El_Arca_de_Noemi/admin/panel_infernal/index.php"
+    Run, "%chrome%" "http://localhost:8081/El_huerto_de_la_Gatopia/admin/panel_infernal/index.php"
 return
 
 AbrirVSCode:
